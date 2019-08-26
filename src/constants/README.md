@@ -10,7 +10,7 @@ In this example the folder includes:
 
 ## Action types
 
-the action types is an object wich the resource reducer responds to. When a action type is dispatched from an action the state changes in the store. 
+the action types is an object which the resource reducer responds to. When a action type is dispatched from an action the state changes in the store.
 
 The example below contains the action types dispatched from the login action creator.
 
