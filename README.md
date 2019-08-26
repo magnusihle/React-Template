@@ -13,9 +13,10 @@ This application is not delivered with a functional backend, the point of this r
 ### What you need
 
 1. You need to install [Node.js.](https://nodejs.org/en/)
-2. Clone the project.
-3. `npm install` to install all the needed packages
-4. `npm start` to start the application
+2. `$ git clone git@github.com:magnusihle/React-Template.git`
+3. `$ npm install` to install all the needed packages
+4. `$ npm start` to start the application
+5. Recomended IDE [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Getting started
 

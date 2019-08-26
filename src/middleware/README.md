@@ -14,10 +14,10 @@ var proxy = require('http-proxy-middleware');
 
 module.exports = function(app) {
     app.use(proxy('/api', { target: 'http://www.example.org'}));
-    //            \____/   \_______________________________/
-    //               |                      |
-    //             context               options
+    #             \____/   \_______________________________/
+    #                |                      |
+    #              context               options
 
-    // 'apiProxy' is now ready to be used as middleware in a server.
+    # 'apiProxy' is now ready to be used as middleware in a server.
 }
 ```

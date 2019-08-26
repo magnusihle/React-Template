@@ -9,7 +9,7 @@ The `app.js` file contains the application initilizer usually it just contains t
 Example:
 
 ```bash
-//  React
+#  React
 import React from 'react'
 import { connect } from 'react-redux'
 
@@ -20,8 +20,8 @@ const App = ({actions, children}) => (
 )
 
 const mapStateToProps = state => ({
-    //  If there are any Redux loading or so on that should be
-    //  initiated in the app.js file.
+    #  If there are any Redux loading or so on that should be
+    #  initiated in the app.js file.
 })
 
 export default connect(

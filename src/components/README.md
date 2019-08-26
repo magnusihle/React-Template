@@ -19,23 +19,23 @@ Inside the `return()` the visual logic is implemented. Inline logic can also exi
 To call a redux action creator we have to connect the action creator to the component this is done like this in the example below.
 
 ```bash
-// First import withRouter and connect from react-router-dom and
-// react-redux. These imports are used inn exporting and binding the // component.
+# First import withRouter and connect from react-router-dom and
+# react-redux. These imports are used inn exporting and binding the  # component.
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 
-// Import the actions creator from the actions folder.
+# Import the actions creator from the actions folder.
 import { adminActions } from "../actions/admin-service";
 
-// To access the initial state from the reducer, map the state to a
-// prop like this. 
+# To access the initial state from the reducer, map the state to a
+# prop like this. 
 const mapStateToProps = (state) => {
   const { loggingIn } = state.authenticate;
   return { loggingIn };
 };
 
-// Then we have to define our actionCreators to access the correct
-// action.
+# Then we have to define our actionCreators to access the correct
+# action.
 const actionCreators = {
   login: adminActions.login,
   logout: adminActions.logout
